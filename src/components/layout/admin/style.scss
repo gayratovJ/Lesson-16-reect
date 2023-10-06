@@ -1,0 +1,33 @@
+header {
+  nav {
+    padding: 16px 0px;
+    position: fixed;
+    width: 100%;
+    -webkit-box-shadow: 0px 6px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 6px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 6px 8px 0px rgba(34, 60, 80, 0.2);
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      ul {
+        display: flex;
+        gap: 16px;
+
+        li {
+          a {
+            font-size: 18px;
+            line-height: 24px;
+            color: black;
+            font-weight: 700;
+            &:hover {
+              color: red;
+            }
+          }
+        }
+      }
+    }
+  }
+}
